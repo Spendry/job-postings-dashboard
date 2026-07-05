@@ -20,7 +20,7 @@ A Power BI dashboard analyzing **478,895 tech job postings from 2024** across te
 |---|---|
 | **Overview** | KPI cards (total postings, salary star rating, median yearly and hourly salary), jobs-over-time trend, hourly vs. yearly salary scatter, posting counts by title, and a job stats table with per-role trend sparklines. |
 | **Drill Through** | Right-click any job title on the Overview to land here: salary gauges, a global posting map, work-from-home / degree / insurance donuts, platform ranking, and a job-type treemap — all scoped to that title. |
-| **TT Base** | Custom tooltip page powering hover details on the Overview visuals. |
+| **TT Base** | Flat Custom tooltip page will be used in the future. |
 
 ![Data Engineer drill-through](assets/drill-through-data-engineer.png)
 
@@ -28,9 +28,7 @@ A Power BI dashboard analyzing **478,895 tech job postings from 2024** across te
 
 - Drill-through navigation scoped to the selected job title
 - Bookmark-driven info popup for credits and context
-- Custom tooltip page
 - Custom dark theme (my personal "Half Human Draft" Power BI theme)
-- DAX measures for medians, salary star rating, and share-of-total percentages
 
 ![Bookmark-driven info popup](assets/info-popup.png)
 
